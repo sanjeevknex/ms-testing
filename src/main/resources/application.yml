@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: "root"
+    password: ""
+    url: jdbc:mysql://localhost:3306/trainging9thjune
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: create-drop
+      showsql: true
+server:
+  port: 8181
